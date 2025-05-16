@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+    float fa,cel=0;
+    printf("Temperature in fahrenheit: ");
+    scanf("%f",&fa);
+    
+    cel =(fa-32) * 5/9;
+    
+    printf("Temperature in celsius:%.2lf C",cel);
+    return 0;
+}
