@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int num1,num2,num3,num4,num5,total;
+    double average,percentage;
+    printf("Enter marks of five subjects: ");
+    scanf("%d %d %d %d %d",&num1,&num2,&num3,&num4,&num5);
+    
+    total=num1+num2+num3+num4+num5;
+    printf("Total:%d\n",total);
+    average=total/5;
+    printf("Average:%lf\n",average);
+    percentage=((double)total/500)*100;
+    printf("Percentage:%lf\n",percentage);
+    return 0;
+}
