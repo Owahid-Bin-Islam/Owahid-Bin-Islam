@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main ()
+{
+    int num1,num2,power=0;
+    printf("Enter base: ");
+    scanf("%d",&num1);
+    printf("Enter exponent: ");
+    scanf("%d",&num2);
+    power = pow(num1,num2);
+    printf("%d^%d:%d",num1,num2,power);
+    return 0;
+}
