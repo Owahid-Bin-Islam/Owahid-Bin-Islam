@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{    
+    double side,result;
+    printf("Enter side of the equilateral triangle:");
+    scanf("%lf",&side);
+    result = 0.433 * (side * side);
+    printf("Area of equilateral triangle:%.2lf",result);
+return 0;
