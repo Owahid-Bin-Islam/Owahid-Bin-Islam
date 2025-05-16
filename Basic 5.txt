@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main ()
+{
+    float radius,diameter=0,circumference=0,area=0;
+    float pi = 3.1416;
+    printf("Enter radius: ");
+    scanf("%f",&radius);
+    
+    diameter = 2 * radius;
+    printf("Diameter=%.2lf units\n ",diameter);
+    circumference = 2 * pi * radius;
+    printf("Circumference=%.2lf units\n",circumference);
+    area = pi * (radius * radius);
+    printf("Area=%.2lf sq.units\n",area);
+    return 0;
+}
