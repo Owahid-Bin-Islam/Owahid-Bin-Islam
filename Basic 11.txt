@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+int main ()
+{
+int fa,sa,ta=0;
+    printf("Enter first angle: ");
+      scanf("%d",&fa);
+        printf("Enter second angle: ");
+          scanf("%d",&sa);
+    ta=180-(fa+sa);
+    printf("Third angle:%d",ta);
+    return 0;
+}
