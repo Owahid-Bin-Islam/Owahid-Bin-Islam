@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main ()
+{
+    int i;
+    
+    printf("Enter the number of month: ");
+    scanf("%d",&i);
+    
+    if(i == 1){
+        printf("January.It contains 31 days");
+    }else if(i == 2){
+        printf("February.It contains 28 days");
+    }else if(i == 3){
+        printf("March.It contains 31 days");
+    }else if(i == 4){
+        printf("April.It contains 30 days");
+    }else if(i == 5){
+        printf("May.It contains 31 days");
+    }else if(i == 6){
+        printf("June.It contains 30 days");
+    }else if(i == 7){
+        printf("July.It contains 31 days");
+    }else if(i == 8){
+        printf("August.It contains 31 days");
+    }else if(i == 9){
+        printf("September.It contains 30 days");
+    }else  if(i == 10){
+        printf("October.It contains 31 days");
+    }else if(i == 11){
+        printf("November.It contains 30 days");
+    }else  if(i == 12){
+        printf("December.It contains 31 days");
+    }else{
+        printf("Invalid Input");
+    }
+    return 0;
+}
